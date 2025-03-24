@@ -5,8 +5,8 @@ import { gsap } from 'gsap';
 import Image from 'next/image';
 
 const DailyFlowSection = () => {
-  const [imageIndex, setImageIndex] = useState(1);
-  const [selectedIndex, setSelectedIndex] = useState(null);
+  const [imageIndex, setImageIndex] = useState<number>(1);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   useEffect(() => {
     gsap.from("#daily-flow", { duration: 1, opacity: 0, y: -50 });
