@@ -4,7 +4,7 @@ import { HomeIcon } from 'lucide-react';
 
 
 const FacilityInfo = () => (
-  <div id="facility-info" className="bg-[#f9f5e7] py-20 px-4 md:px-8">
+  <div id="facility-info" className="bg-[#f9f5e7] py-20 px-4 md:px-8 pt-60">
     <div className="max-w-6xl mx-auto pb-32">
       {/* Header */}
       <div className="flex flex-col items-center justify-center mb-16">
