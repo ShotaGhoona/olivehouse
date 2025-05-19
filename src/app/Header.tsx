@@ -36,7 +36,7 @@ const Header = () => {
             </g>
         </svg>
           </div>
-          <h1 className="text-xl font-bold text-[#2c5530]">オリーブの家</h1>
+          <h1 className="text-xl font-bold text-[#2c5530]">オリーブのいえ</h1>
         </div>
 
         {/* ハンバーガーメニューアイコン (右寄せ) */}

@@ -33,7 +33,7 @@ const Footer = () => (
         {/* Service type and name */}
         <div className="mb-6">
         <p className="text-lg font-bold text-[#2c5530] mb-1">デイサービス</p>
-        <p className="text-3xl font-bold text-[#2c5530]">オリーブの家</p>
+        <p className="text-3xl font-bold text-[#2c5530]">オリーブのいえ</p>
         </div>
 
         {/* Registration info */}

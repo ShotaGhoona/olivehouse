@@ -5,7 +5,7 @@ import { HomeIcon } from 'lucide-react';
 
 const FacilityInfo = () => (
   <div id="facility-info" className="bg-[#f9f5e7] py-20 px-4 md:px-8">
-    <div className="max-w-6xl mx-auto ">
+    <div className="max-w-6xl mx-auto pb-32">
       {/* Header */}
       <div className="flex flex-col items-center justify-center mb-16">
         <div className="flex items-center gap-4 mb-2">
@@ -235,7 +235,7 @@ const FacilityInfo = () => (
           <p className="text-medium text-[#5a6b46]">
             お食事は手料理を提供
             <br />
-            {/* 詳細は下に記載しています */}
+            詳細は下に記載しています
           </p>
         </div>
       </div>

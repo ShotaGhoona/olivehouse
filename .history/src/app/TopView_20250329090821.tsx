@@ -35,16 +35,16 @@ const TopView = () => (
   </div>
 
   {/* 📱 Move PhoneContact here, outside of clipped area */}
-  <div className="absolute bottom-[80px] left-1/2 transform -translate-x-1/2 z-50 w-[350px]">
+  <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 z-50">
     <PhoneContact
       phoneNumber="072-320-9209"
       text="お問い合わせ"
-      className="text-white p-4 rounded"
+      className="text-white p-4 rounded shadow-md bg-[#f1c40f]"
     />
   </div>
 
   {/* Tagline */}
-  <div className="pt-16 px-4 text-center bg-[#f9f5e7] ">
+  <div className="pt-16 px-4 text-center bg-[#f9f5e7]">
     <h2 className="text-2xl md:text-4xl font-extrabold text-[#2c5530]">
       楽しく過ごせる、時を大切に
     </h2>
